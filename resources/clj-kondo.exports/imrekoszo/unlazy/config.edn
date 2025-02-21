@@ -77,7 +77,7 @@
     :message "Avoid lazy processing unless necessary. Consider the transducer arity instead."}
 
    clojure.core/reductions
-   {:message "Avoid lazy processing unless necessary. Consider `net.cgrand.xforms/clojure.core/reductions` instead."}
+   {:message "Avoid lazy processing unless necessary. Consider `net.cgrand.xforms/reductions` instead."}
 
    clojure.core/partition-all
    {:arities #{2}
