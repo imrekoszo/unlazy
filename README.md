@@ -15,6 +15,8 @@ imrekoszo/unlazy
  :git/sha "<see https://github.com/imrekoszo/unlazy/releases>"}
 ```
 
+Alternatively just copy the parts you like into your own config.
+
 ## Rationale
 
 Lazy processing is a powerful idea and is built into Clojure from the start. Using these functions is idiomatic and learning them are among the first steps most newcomers to the language take.
