@@ -1,6 +1,6 @@
 # unlazy
 
-Importable [clj-kondo](https://github.com/clj-kondo/clj-kondo) configuration that discourages the use of several `clojure.core` functions that do lazy processing.
+Importable [clj-kondo](https://github.com/clj-kondo/clj-kondo) configuration that discourages the use of several `clojure.core` functions or some of their arities that do lazy processing.
 
 ## Usage
 
