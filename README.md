@@ -19,8 +19,8 @@ Alternatively just copy the parts you like into your own config.
 
 ## Rationale
 
-Lazy processing is a powerful idea and is built into Clojure from the start. Using these functions is idiomatic and learning them are among the first steps most newcomers to the language take.
+Lazy processing is a powerful idea and is built into Clojure from the start. Using these functions is idiomatic and learning them is among the first steps most newcomers to the language take.
 
-They do come with an overhead however which is not generally justified, and their behavior can be confusing in some cases. A great article explaining this is https://clojure-goes-fast.com/blog/clojures-deadly-sin/.
+They do come with an overhead however which is not generally justified, and their behavior can be confusing in some cases. A great article explaining these is https://clojure-goes-fast.com/blog/clojures-deadly-sin/.
 
 My recommendation is to only use lazy processing where absolutely necessary either for functionality or where it does deliver better performance. Personally I prefer transducers with carefully chosen transducible contexts so I can limit the amount of processing done.
