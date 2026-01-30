@@ -100,4 +100,25 @@
     :message "Avoid lazy processing unless necessary. Consider the transducer arity instead."}
 
    clojure.core/for
-   {:message "Avoid lazy processing unless necessary. Consider using `net.cgrand.xforms/for` instead, but note that it returns an eduction or a transducer."}}}}
+   {:message "Avoid lazy processing unless necessary. Consider using `net.cgrand.xforms/for` instead, but note that it returns an eduction or a transducer."}
+
+   clojure.walk/postwalk
+   {:message "Avoid lazy processing unless necessary. Consider using `clojure+.walk/postwalk` (by tonsky) instead."}
+
+   clojure.walk/prewalk
+   {:message "Avoid lazy processing unless necessary. Consider using `clojure+.walk/prewalk` (by tonsky) instead."}
+
+   clojure.walk/walk
+   {:message "Avoid lazy processing unless necessary. Consider using `clojure+.walk/walk` (by tonsky) instead."}
+
+   clojure.walk/stringify-keys
+   {:message "Avoid lazy processing unless necessary. Consider using `clojure+.walk/stringify-keys` (by tonsky) instead."}
+
+   clojure.walk/keywordize-keys
+   {:message "Avoid lazy processing unless necessary. Consider using `clojure+.walk/keywordize-keys` (by tonsky) instead."}
+
+   clojure.walk/prewalk-replace
+   {:message "Avoid lazy processing unless necessary. Consider using `clojure+.walk/prewalk-replace` (by tonsky) instead."}
+
+   clojure.walk/postwalk-replace
+   {:message "Avoid lazy processing unless necessary. Consider using `clojure+.walk/postwalk-replace` (by tonsky) instead."}}}}
