@@ -97,4 +97,7 @@
 
    clojure.core/dedupe
    {:arities #{1}
-    :message "Avoid lazy processing unless necessary. Consider the transducer arity instead."}}}}
+    :message "Avoid lazy processing unless necessary. Consider the transducer arity instead."}
+
+   clojure.core/for
+   {:message "Avoid lazy processing unless necessary. Consider using `net.cgrand.xforms/for` instead, but note that it returns an eduction or a transducer."}}}}
